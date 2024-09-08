@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li strong {
+            display: block;
+            font-size: 1.1em;
+            color: #444;
+        }
+        .section ul li span {
+            display: block;
+            color: #777;
+        }
+        .skills-list, .projects-list, .achievements-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-list div, .projects-list div, .achievements-list div {
+            background-color: #e6e6e6;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 5px;
+            flex: 1 1 200px;
+            text-align: center;
+        }
+        .skills-list div {
+            background-color: #d9f2d9;
+        }
+        .projects-list div {
+            background-color: #d9eaf9;
+        }
+        .achievements-list div {
+            background-color: #f9e3d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <div>
+                <h1>MADDALI SATHWIK</h1>
+                <h2>Recent B.Tech Graduate</h2>
+            </div>
+            <img src="profile-pic.jpg" alt="Profile Picture">
+        </div>
+        
+        <div class="section">
+            <h3>Contact Information</h3>
+            <ul>
+                <li><strong>Email:</strong>maddalisathwik@gmail.com</li>
+                <li><strong>Phone:</strong> +918106147688</li>
+                <li><strong>LinkedIn:</strong>https://www.linkedin.com/in/maddali-sathwik-a4363b2b3</li>
+				<li><strong>Git Hub:</strong>https://github.com/123sathwik/build-in-bharat/blob/main/project%20sathwik.py</li>
+                <li><strong>Address:</strong>MIG-73 VUDACOLONY PHASE-4,ANDRAPRADESH,INDIA</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>B.Tech Electronics And Communication Engineering</strong> <span>Kalasalingam Academy Of Research And Education, 2022-26 - 90%</span></li>
+                <li><strong>12th Grade</strong> <span>Narayana Group Of Colleges, Andhra State Board of Intermediate Education, 2020-22 - 94%</span></li>
+                <li><strong>10th Grade</strong> <span>Narayana High School, SSC, 2019 - 98%</span></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h3>Skills</h3>
+            <div class="skills-list">
+                <div>Python</div>
+                <div>Java</div>
+                <div>Web Development</div>
+                <div>Machine Learning</div>
+                <div>Data Analysis</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Projects</h3>
+            <div class="projects-list">
+                <div>
+                    <strong>Project Management System</strong>
+                    <span>Developed a web application to manage projects, tasks, and team collaboration.</span>
+                </div>
+                <div>
+                    <strong>AI Crop Disease Predictor</strong>
+                    <span>Created an AI-based system for predicting and managing crop diseases using machine learning.</span>
+                </div>
+                <div>
+                    <strong>Energy Storage Simulator</strong>
+                    <span>Designed a simulation tool to manage energy storage across multiple rooms.</span>
+                </div>
+            </div>
+        </div>
+		<div class="section">
+            <h3>Internships and Courses</h3>
+            <ul>
+                <li><strong>Training & Content Development Department</strong> - (A++ Grade)</li>
+                <li><strong>Matlab and Deep Learning</strong> - Matlab Basics</li>
+                <li><strong>Machine Learning Concepts</strong> - Advance Levels</li>
+                <li><strong>Deep Learning Concepts</strong> - Advance Levels</li>
+            </ul>
+        </div>
+		<div class="section">
+            <h3>Extra-Curricular Activities</h3>
+            <ul>
+                <li>Active volunteer at Go Green.</li>
+                <li>Member of Vishaka Cultural Club at Kalasalingam University, showcasing the diversity of Indian culture in various events.</li>
+                <li>A Language Transulator that helps to Communicate With the illiterates.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h3>Achievements</h3>
+            <div class="achievements-list">
+                <div>
+                    <strong>Top Performer</strong>
+                    <span>Achieved the top presentation in Nanochip Program.</span>
+                </div>
+                <div>
+                    <strong>Hackathon Winner</strong>
+                    <span>Won first place in university-level hackathon competition.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
